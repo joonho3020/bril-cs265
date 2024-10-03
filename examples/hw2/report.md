@@ -154,6 +154,10 @@ def get_used(block):
 
 ## Benchmark results
 
+- Benchmarks that my pass did better than the baseline: eight-queens (28975 instructions vs baseline)
+- Benchmarks that my pass did not do well: matmut (145107 more instructions vs baseline)
+- In total, my pass has 3% more instructions compared to the baseline version
+
 ```
 benchmark,run,result
 sum-divisors,baseline,159
